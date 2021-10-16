@@ -1,0 +1,120 @@
+{
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "breadcrumbs.enabled": false,
+    "code-runner.runInTerminal": true,
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.executorMap": {
+        "javascript": "node $fileName",
+        "typescript": "tsc && node $fileNameWithoutExt.js",
+        "java": "javac $fileName && java $fileNameWithoutExt",
+        "c": "gcc $fileName -o $fileNameWithoutExt && ./$fileNameWithoutExt",
+        "cpp": "g++ $fileName -o $fileNameWithoutExt.exe && ./$fileNameWithoutExt.exe",
+        "python": "python $fileName",
+        "go": "go run $fileName"
+    },
+    "editor.fontSize": 16,
+    "editor.formatOnSave": true,
+    "editor.smoothScrolling": true,
+    "editor.fontFamily": "Fira Code",
+    "editor.cursorBlinking": "smooth",
+    "editor.suggestSelection": "first",
+    "editor.minimap.size": "proportional",
+    "editor.rename.enablePreview": false,
+    "editor.fontLigatures": "'ss01','ss02','ss03','ss04','ss05','ss06','ss07','zero','onum'",
+    "editor.tokenColorCustomizations": {
+        "[Community Material Theme Ocean]": {
+            "comments": "#4d4d4d"
+        }
+    },
+    "explorer.sortOrder": "type",
+    "explorer.confirmDelete": false,
+    "files.trimFinalNewlines": true,
+    "git.enabled": false,
+    "javascript.format.enable": false,
+    "javascript.preferences.quoteStyle": "single",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+    "prettier.arrowParens": "avoid",
+    "prettier.jsxSingleQuote": true,
+    "prettier.jsxBracketSameLine": true,
+    "python.formatting.provider": "black",
+    "search.sortOrder": "type",
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "window.zoomLevel": -2,
+    "workbench.editor.enablePreview": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Gruvbox Dark Medium",
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.productIconTheme": "material-product-icons",
+    "workbench.colorCustomizations": {
+        "terminal.ansiBlack": "#1D2021",
+        "terminal.ansiBrightBlack": "#665C54",
+        "terminal.ansiBrightBlue": "#0D6678",
+        "terminal.ansiBrightCyan": "#8BA59B",
+        "terminal.ansiBrightGreen": "#237e02",
+        "terminal.ansiBrightMagenta": "#8F4673",
+        "terminal.ansiBrightRed": "#f73920",
+        "terminal.ansiBrightWhite": "#FDF4C1",
+        "terminal.ansiBrightYellow": "#f7b419",
+        "terminal.ansiBlue": "#00a1f9",
+        "terminal.ansiCyan": "#8BA59B",
+        "terminal.ansiGreen": "#65ce3f",
+        "terminal.ansiMagenta": "#bb448e",
+        "terminal.ansiRed": "#dd5543",
+        "terminal.ansiWhite": "#A89984",
+        "terminal.ansiYellow": "#fae43b",
+        "[Community Material Theme Ocean]": {
+            "sideBar.foreground": "#929292",
+            "tab.inactiveForeground": "#b1b1b1",
+            "activityBarBadge.foreground": "#141218",
+            "activityBar.foreground": "#e9e9e9",
+            "activityBar.background": "#26222d",
+            "sideBarSectionHeader.background": "#26222d",
+            "sideBarSectionHeader.foreground": "#c9c9c9",
+            "tab.activeBackground": "#211e28",
+            "tab.border": "#000000"
+        },
+        "[Atom One Dark]": {
+            "editor.background": "#20232b"
+        },
+        "[Dracula]": {
+            "activityBarBadge.background": "#ffee00",
+            "activityBarBadge.foreground": "#141218",
+            "activityBar.inactiveForeground": "#555555",
+            "activityBar.background": "#141218",
+            "editor.background": "#20232b",
+            "dropdown.background": "#20232b",
+            "panel.background": "#20232b",
+            "panel.border": "#4e576b",
+            "panelTitle.activeBorder": "#50FA7B",
+            "panelTitle.inactiveForeground": "#7d8cae",
+            "sideBar.background": "#19161d",
+            "terminal.background": "#20232b"
+        }
+    },
+    "zenMode.centerLayout": false
+}
+// Linux OS
